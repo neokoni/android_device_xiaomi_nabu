@@ -38,7 +38,17 @@ PRODUCT_MODEL := Xiaomi Pad 5
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# RisingOS Flags
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Qualcomm Snapdragon 860" \
+    RisingMaintainer="Neokoni" \
     BuildDesc="nabu_global-user 13 RKQ1.200826.002 V816.0.1.0.TKXMIXM release-keys" \
     BuildFingerprint=Xiaomi/nabu_global/nabu:13/RKQ1.200826.002/V816.0.1.0.TKXMIXM:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)

@@ -32,6 +32,3 @@ persist.log.tag.ResourcesCompat=S
 persist.log.tag.CVP=S
 persist.log.tag.CamX=S
 persist.log.tag.a2dp_codec=S
-
-# Updater
-lineage.updater.uri=https://raw.githubusercontent.com/dev-harsh1998/ota/master/nb.json
