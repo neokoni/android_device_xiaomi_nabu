@@ -282,8 +282,8 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml
 
 # Keylayout
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/keylayout/sm8150-tavil-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sm8150-tavil-snd-card_Button_Jack.kl \
+PRODUCT_PACKAGES += \
+    sm8150-tavil-snd-card_Button_Jack.kl
 
 # Keymaster
 PRODUCT_PACKAGES += \
@@ -291,7 +291,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.xiaomi
+    android.hardware.light-service.lineage
 
 # Media
 PRODUCT_PACKAGES += \
@@ -368,13 +368,14 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
-# Filesystems table
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.qcom \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
-
+# init
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_nabu)
+
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom.ramdisk \
+    fstab.qcom.vendor_ramdisk
 
 PRODUCT_PACKAGES += \
     init.class_main.sh \
