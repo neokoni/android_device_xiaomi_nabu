@@ -30,8 +30,11 @@ endif
 # Inherit device configuration for nabu.
 $(call inherit-product, device/xiaomi/nabu/device.mk)
 
+# Inherit our own staff
+$(call inherit-product, device/xiaomi/nabu/flags.mk)
+
 # crDroid build flag
-TARGET_ENABLE_BLUR := true
+# TARGET_ENABLE_BLUR := true
 
 PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 PRODUCT_DEVICE := nabu
