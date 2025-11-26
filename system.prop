@@ -38,4 +38,4 @@ persist.log.tag.QC2Buf=W
 persist.log.tag.QC2V4l2Codec=E
 
 # Updater
-lineage.updater.uri=https://raw.githubusercontent.com/dev-harsh1998/ota/master/nb.json
+#lineage.updater.uri=https://raw.githubusercontent.com/dev-harsh1998/ota/master/nb.json
