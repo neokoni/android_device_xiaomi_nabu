@@ -99,7 +99,8 @@ TARGET_KERNEL_CONFIG := \
     vendor/sm8150-perf_defconfig \
     vendor/debugfs.config \
     vendor/xiaomi/sm8150-common.config \
-    vendor/xiaomi/nabu.config
+    vendor/xiaomi/nabu.config \
+    vendor/ksu.config
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
