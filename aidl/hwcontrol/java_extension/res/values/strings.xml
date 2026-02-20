@@ -31,4 +31,24 @@
     <string name="double_tap_2_wake_summary">Wake device by double tapping the screen</string>
     <string name="double_tap_2_wake_switch_title">Enable double tap to wake</string>
     <string name="double_tap_2_wake_switch_summary">Allow waking device by double tapping the screen</string>
+
+    <!-- Pen Charging Notification -->
+    <string name="pen_charging_channel_name">Stylus Charging</string>
+    <string name="pen_charging_channel_description">Shows stylus battery status while charging</string>
+    <string name="pen_charging_notification_title">Stylus Charging</string>
+    <string name="pen_charging_notification_content">Battery: %d%%</string>
+    <string name="pen_charging_notification_content_unknown">Charging…</string>
+
+    <!-- Game Mode -->
+    <string name="game_mode_title">Touchscreen Game Mode</string>
+    <string name="game_mode_summary">Switch touchscreen firmware to MIUI 12.5 for enhanced touch response</string>
+    <string name="game_mode_switch_title">Enable game mode</string>
+    <string name="game_mode_switch_summary">Activates MIUI 12.5 touchscreen firmware with lower touch latency. Requires screen off/on cycle to apply</string>
+    <string name="game_mode_warning_gen2_pen">Warning: Generation 2 stylus will not work while game mode is enabled. MIUI 12.5 firmware does not support Gen 2 pen.</string>
+
+    <!-- Cover Flap -->
+    <string name="coverflap_title">Cover Flap</string>
+    <string name="coverflap_summary">Configure cover flap wake/sleep behavior</string>
+    <string name="coverflap_switch_title">Enable cover flap</string>
+    <string name="coverflap_switch_summary">Wake or sleep the device when the cover flap is opened or closed</string>
 </resources>
