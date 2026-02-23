@@ -1,11 +1,23 @@
 # Avium UI
 AVIUM_BUILDTYPE := Unofficial
 AVIUM_VERSION_APPEND_TIME_OF_DAY := false
+AVIUM_MAINTAINER := Neokoni
+
+# Feature
+TAEGET_ENABLE_BLUR := true
+
+# GMS
 WITH_GMS := true
 TARGET_GMS_TYPE := FULL_TABLET_WIFIONLY
 TARGET_INCLUDE_GOOGLEIME :=true
 TARGET_GOOGLEIME_OVERRIDE_IME := true
-AVIUM_MAINTAINER := Neokoni
-TAEGET_ENABLE_BLUR := true
+
 # Add our keys, enable release-key build
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/releasekey
+
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
+PRODUCT_COPY_FILES += \
+     vendor/avium/prebuilt/common/etc/init/init.avium-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.avium-updater.rc
