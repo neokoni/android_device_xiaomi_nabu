@@ -2,14 +2,16 @@
 AVIUM_BUILDTYPE := Unofficial
 AVIUM_VERSION_APPEND_TIME_OF_DAY := false
 AVIUM_MAINTAINER := Neokoni
+AVIUM_FORCE_SET_FAKE_PROP := true
 
 # Feature
-TAEGET_ENABLE_BLUR := true
+TARGET_FORCE_ENABLE_BLUR := true
 
 # GMS
 WITH_GMS := true
 TARGET_INCLUDE_GOOGLEIME :=true
 TARGET_GOOGLEIME_OVERRIDE_IME := true
+TARGET_USES_GSANS := true
 
 # Add our keys, enable release-key build
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/releasekey
