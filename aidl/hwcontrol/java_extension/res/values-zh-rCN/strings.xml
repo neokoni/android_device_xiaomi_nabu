@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2022 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Xiaomi Stylus -->
+    <string name="stylus_title">小米灵感触控笔</string>
+    <string name="stylus_summary">配置触控笔支持与触控笔代数设置</string>
+    <string name="stylus_switch_title">启用触控笔</string>
+    <string name="stylus_switch_summary">启用小米灵感触控笔支持</string>
+    <string name="stylus_gen_switch_title">二代灵感触控笔支持</string>
+    <string name="stylus_gen_switch_summary">请在开启触控笔支持前启用, 重新点亮屏幕后生效.</string>
+
+    <!-- Xiaomi Keyboard -->
+    <string name="keyboard_title">小米键盘</string>
+    <string name="keyboard_summary">配置磁吸键盘支持</string>
+    <string name="keyboard_switch_title">启用键盘</string>
+    <string name="keyboard_switch_summary">为小米键盘式双面保护壳启用键盘支持</string>
+
+    <!-- Double tap to wake -->
+    <string name="double_tap_2_wake_title">双击亮屏</string>
+    <string name="double_tap_2_wake_summary">双击屏幕唤醒设备</string>
+    <string name="double_tap_2_wake_switch_title">启用双击亮屏</string>
+    <string name="double_tap_2_wake_switch_summary">允许双击屏幕任意位置点亮屏幕</string>
+
+    <!-- Pen Charging Notification -->
+    <string name="pen_charging_channel_name">触控笔充电</string>
+    <string name="pen_charging_channel_description">在触控笔充电时显示电量</string>
+    <string name="pen_charging_notification_title">触控笔充电中</string>
+    <string name="pen_charging_notification_content">电量: %d%%</string>
+    <string name="pen_charging_notification_content_unknown">充电中…</string>
+
+    <!-- Game Mode -->
+    <string name="game_mode_title">游戏模式触摸屏</string>
+    <string name="game_mode_summary">将触摸屏固件切换到 MIUI 12.5 以获得更好的触摸响应</string>
+    <string name="game_mode_switch_title">启用游戏模式</string>
+    <string name="game_mode_switch_summary">激活 MIUI 12.5 触摸屏固件, 具有更低的触摸延迟. 重新点亮屏幕后生效</string>
+    <string name="game_mode_warning_gen2_pen">警告: 启用游戏模式时, 第二代触控笔将无法工作. MIUI 12.5 固件不支持第二代触控笔.</string>
+
+    <!-- Cover Flap -->
+    <string name="coverflap_title">翻盖熄屏</string>
+    <string name="coverflap_summary">配置屏幕翻盖熄屏唤醒/睡眠行为</string>
+    <string name="coverflap_switch_title">启用翻盖熄屏</string>
+    <string name="coverflap_switch_summary">当屏幕翻盖打开或关闭时唤醒或熄屏</string>
+</resources>
