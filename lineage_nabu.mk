@@ -31,7 +31,7 @@ endif
 $(call inherit-product, device/xiaomi/nabu/device.mk)
 
 # Inherit our own staff
-$(call inherit-product, device/xiaomi/nabu/flags.mk)
+$(call inherit-product, device/xiaomi/nabu/avium.mk)
 
 # crDroid build flag
 # TARGET_ENABLE_BLUR := true
