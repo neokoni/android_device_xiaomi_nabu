@@ -43,7 +43,7 @@
     <string name="game_mode_title">游戏模式触摸屏</string>
     <string name="game_mode_summary">将触摸屏固件切换到 MIUI 12.5 以获得更好的触摸响应</string>
     <string name="game_mode_switch_title">启用游戏模式</string>
-    <string name="game_mode_switch_summary">激活 MIUI 12.5 触摸屏固件, 具有更低的触摸延迟. 重新点亮屏幕后生效</string>
+    <string name="game_mode_switch_summary">切换到 MIUI 12.5 触摸屏固件, 具有更低的触摸延迟. 重新点亮屏幕后生效</string>
     <string name="game_mode_warning_gen2_pen">警告: 启用游戏模式时, 第二代触控笔将无法工作. MIUI 12.5 固件不支持第二代触控笔.</string>
 
     <!-- Cover Flap -->
