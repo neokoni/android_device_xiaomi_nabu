@@ -9,8 +9,8 @@ import android.os.Bundle
 import android.provider.Settings
 import android.util.Log
 import androidx.preference.Preference
-import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 import com.harshit.nabuextensions.R
 
 /**
@@ -18,7 +18,7 @@ import com.harshit.nabuextensions.R
  * Controls the lid_behavior setting which determines how the device
  * responds when the cover flap is opened/closed.
  */
-class CoverFlapSettingsFragment : PreferenceFragmentCompat(), 
+class CoverFlapSettingsFragment : SettingsBasePreferenceFragment(),
     Preference.OnPreferenceChangeListener {
     
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {

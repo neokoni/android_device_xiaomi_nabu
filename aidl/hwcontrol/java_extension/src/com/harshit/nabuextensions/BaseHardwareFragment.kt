@@ -8,15 +8,15 @@ package com.harshit.nabuextensions
 import android.os.Bundle
 import android.util.Log
 import androidx.preference.Preference
-import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 /**
  * Abstract base class for hardware control preference fragments.
  * Eliminates code duplication by providing common functionality for
  * switch-based hardware control settings.
  */
-abstract class BaseHardwareFragment : PreferenceFragmentCompat(), Preference.OnPreferenceChangeListener {
+abstract class BaseHardwareFragment : SettingsBasePreferenceFragment(), Preference.OnPreferenceChangeListener {
     
     private val logTag: String get() = this::class.java.simpleName
     

@@ -30,7 +30,7 @@
         android:label="@string/device_settings_app_name"
         android:icon="@mipmap/ic_launcher"
         android:persistent="true"
-        android:theme="@style/Theme.SubSettingsBase"
+        android:theme="@style/Theme.SubSettingsBase.Expressive"
 	android:defaultToDeviceProtectedStorage="true"
 	android:directBootAware="true">
 
@@ -47,7 +47,7 @@
             android:name=".stylus.StylusSettingsActivity"
             android:label="@string/stylus_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.SubSettingsBase.Expressive">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -61,7 +61,7 @@
             android:name=".keyboard.XiaomiKeyboardSettingsActivity"
             android:label="@string/keyboard_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.SubSettingsBase.Expressive">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -75,7 +75,7 @@
             android:name=".tap2wake.Tap2WakeSettingsActivity"
             android:label="@string/double_tap_2_wake_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.SubSettingsBase.Expressive">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -89,7 +89,7 @@
             android:name=".gamemode.GameModeSettingsActivity"
             android:label="@string/game_mode_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.SubSettingsBase.Expressive">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -103,7 +103,7 @@
             android:name=".coverflap.CoverFlapSettingsActivity"
             android:label="@string/coverflap_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.SubSettingsBase.Expressive">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
