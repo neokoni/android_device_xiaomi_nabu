@@ -269,6 +269,7 @@ persist.vendor.sensors.enable.mag_filter=true
 sys.vendor.shutdown.waittime=500
 
 # USB
+vendor.usb.product_string=Xiaomi Pad 5
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss
