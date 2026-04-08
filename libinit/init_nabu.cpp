@@ -65,8 +65,6 @@ void set_device_properties(const dv &variant)
   }
 
   property_override("ro.build.description", variant.build_description.c_str());
-  property_override("bluetooth.device.default_name", variant.model.c_str());
-  property_override("vendor.usb.product_string", variant.model.c_str());
 }
 
 void witch_nabu()
