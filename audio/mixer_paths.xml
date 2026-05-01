@@ -95,10 +95,10 @@
     <ctl name="RT_PROXY_1_TX SetCalMode" value="CAL_MODE_NONE" />
 
     <!-- Audio Input Controls -->
-    <ctl name="ADC1 Volume" value="10" />
-    <ctl name="ADC2 Volume" value="9" />
-    <ctl name="ADC3 Volume" value="10" />
-    <ctl name="ADC4 Volume" value="9" />
+    <ctl name="ADC1 Volume" value="8" />
+    <ctl name="ADC2 Volume" value="8" />
+    <ctl name="ADC3 Volume" value="8" />
+    <ctl name="ADC4 Volume" value="8" />
     <ctl name="AUDIO_REF_EC_UL1 MUX" value="None" />
     <ctl name="AUDIO_REF_EC_UL10 MUX" value="None" />
     <ctl name="EC Reference Channels" value="Zero"/>
@@ -1940,7 +1940,7 @@
     <!-- Specific Microphone Device Paths -->
     <path name="handset-mic-qrd">
         <path name="dmic3" />
-        <ctl name="DEC7 Volume" value="94" />
+        <ctl name="DEC7 Volume" value="84" />
     </path>
 
     <path name="back-mic">
@@ -1958,7 +1958,7 @@
 
     <path name="speaker-mic-qrd">
         <path name="dmic1" />
-        <ctl name="DEC7 Volume" value="94" />
+        <ctl name="DEC7 Volume" value="84" />
     </path>
 
     <path name="bt-sco-mic">
@@ -1970,8 +1970,8 @@
 
     <!-- Recording Volume Control -->
     <path name="record-vol">
-        <ctl name="ADC1 Volume" value="22" />
-        <ctl name="ADC3 Volume" value="22" />
+        <ctl name="ADC1 Volume" value="20" />
+        <ctl name="ADC3 Volume" value="20" />
     </path>
 
     <!-- ================================================================== -->
@@ -2393,7 +2393,7 @@
         <ctl name="CDC_IF TX4 MUX" value="DEC4" />
         <ctl name="ADC MUX4" value="AMIC" />
         <ctl name="AMIC MUX4" value="ADC1" />
-        <ctl name="ADC1 Volume" value="10" />
+        <ctl name="ADC1 Volume" value="8" />
     </path>
 
     <!-- Xiaomi-specific ultrasound paths -->
@@ -2416,7 +2416,7 @@
         <ctl name="CDC_IF TX4 MUX" value="DEC4" />
         <ctl name="ADC MUX4" value="AMIC" />
         <ctl name="AMIC MUX4" value="ADC1" />
-        <ctl name="ADC1 Volume" value="10" />
+        <ctl name="ADC1 Volume" value="8" />
     </path>
 
     <!-- ================================================================== -->
@@ -2568,31 +2568,31 @@
         <ctl name="CDC_IF TX6 MUX" value="DEC6" />
         <ctl name="ADC MUX6" value="AMIC" />
         <ctl name="AMIC MUX6" value="ADC1" />
-        <ctl name="ADC1 Volume" value="7" />
+        <ctl name="ADC1 Volume" value="5" />
     </path>
 
     <path name="voice-dmic-ef">
         <path name="dmic-endfire" />
-        <ctl name="ADC1 Volume" value="13" />
-        <ctl name="ADC3 Volume" value="13" />
+        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC3 Volume" value="12" />
     </path>
 
     <path name="voice-speaker-dmic-ef">
         <path name="speaker-dmic-endfire" />
-        <ctl name="ADC1 Volume" value="7" />
-        <ctl name="ADC3 Volume" value="7" />
+        <ctl name="ADC1 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="6" />
     </path>
 
     <path name="headset-mic">
         <path name="amic2" />
         <ctl name="External AMIC2 Mux" value="default" />
-        <ctl name="ADC2 Volume" value="7" />
-        <ctl name="DEC1 Volume" value="94" />
+        <ctl name="ADC2 Volume" value="6" />
+        <ctl name="DEC1 Volume" value="84" />
     </path>
 
     <path name="voice-headset-mic">
         <path name="headset-mic" />
-        <ctl name="ADC2 Volume" value="13" />
+        <ctl name="ADC2 Volume" value="12" />
     </path>
 
     <!-- Dual MIC devices -->
@@ -2604,8 +2604,8 @@
 
     <path name="handset-stereo-dmic-ef">
         <path name="handset-dmic-endfire" />
-        <ctl name="ADC3 Volume" value="10" />
-        <ctl name="ADC1 Volume" value="10" />
+        <ctl name="ADC3 Volume" value="9" />
+        <ctl name="ADC1 Volume" value="9" />
     </path>
 
     <path name="speaker-dmic-endfire">
@@ -2642,15 +2642,15 @@
 
     <path name="handset-three-mic">
         <path name="three-mic" />
-        <ctl name="DEC5 Volume" value="94" />
-        <ctl name="DEC6 Volume" value="94" />
-        <ctl name="DEC8 Volume" value="94" />
+        <ctl name="DEC5 Volume" value="84" />
+        <ctl name="DEC6 Volume" value="84" />
+        <ctl name="DEC8 Volume" value="84" />
     </path>
 
     <path name="speaker-three-mic">
         <path name="three-mic" />
-        <ctl name="DEC5 Volume" value="90" />
-        <ctl name="DEC6 Volume" value="90" />
+        <ctl name="DEC5 Volume" value="80" />
+        <ctl name="DEC6 Volume" value="80" />
         <ctl name="DEC8 Volume" value="80" />
     </path>
 
@@ -2673,10 +2673,10 @@
         <ctl name="DMIC MUX7" value="DMIC3" />
         <ctl name="DMIC MUX8" value="DMIC5" />
         <ctl name="SLIM_0_TX Channels" value="Four" />
-        <ctl name="DEC5 Volume" value="87" />
-        <ctl name="DEC6 Volume" value="87" />
-        <ctl name="DEC7 Volume" value="87" />
-        <ctl name="DEC8 Volume" value="87" />
+        <ctl name="DEC5 Volume" value="78" />
+        <ctl name="DEC6 Volume" value="78" />
+        <ctl name="DEC7 Volume" value="78" />
+        <ctl name="DEC8 Volume" value="78" />
     </path>
 
     <!-- AMIC2 path definition for headset microphone -->
@@ -2738,7 +2738,7 @@
     <path name="sidetone-iir-headphones">
         <ctl name="IIR0 Enable Band1" value="1" />
         <ctl name="IIR0 INP0 MUX" value="DEC6" />
-        <ctl name="IIR0 INP0 Volume" value="60" />
+        <ctl name="IIR0 INP0 Volume" value="54" />
         <ctl name="RX INT1 MIX2 INP" value="SRC0" />
         <ctl name="RX INT2 MIX2 INP" value="SRC0" />
         <ctl name="COMP1 Switch" value="0" />
@@ -2752,7 +2752,7 @@
         <ctl name="IIR0 Enable Band2" value="1" />
         <ctl name="IIR0 Enable Band3" value="1" />
         <ctl name="IIR0 INP0 MUX" value="DEC6" />
-        <ctl name="IIR0 INP0 Volume" value="67" />
+        <ctl name="IIR0 INP0 Volume" value="60" />
     </path>
 
     <!-- IIR Band Coefficients for Basic EQ -->
@@ -2780,8 +2780,8 @@
         <ctl name="ADC MUX8" value="AMIC" />
         <ctl name="AMIC MUX8" value="ADC1" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
-        <ctl name="ADC3 Volume" value="10" />
-        <ctl name="ADC1 Volume" value="10" />
+        <ctl name="ADC3 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="8" />
 	</path>
 
 </mixer>
