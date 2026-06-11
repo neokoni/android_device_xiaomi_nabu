@@ -16,6 +16,12 @@
     "target_path": "hardware/xiaomi"
   },
   {
+    "repository": "neokoni/android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/sm8150/display",
+    "remote": "github",
+    "branch": "lineage-23.2-caf-sm8150"
+  },
+  {
     "repository": "neokoni/android_vendor_xiaomi_nabu",
     "target_path": "vendor/xiaomi/nabu",
     "remote": "github",
