@@ -1,0 +1,5 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="color_mode_option_vivid">生動</string>
+    <string name="color_mode_option_saturated">鮮豔</string>
+    <string name="color_mode_option_standard">標準</string>
+</resources>
