@@ -22,6 +22,6 @@
       {device} - Device name
       {flavor} - OTA flavor (gms or vanilla)
     -->
-    <string name="updater_server_url" translatable="false">https://ota.neokoni.ink/AviumUI/avium-16/{device}/ota.json</string>
-    <string name="changelog_url" translatable="false">https://ota.neokoni.ink/device/{device}/AviumUI/avium-16</string>
+    <string name="updater_server_url" translatable="false">https://ota.neokoni.ink/uwuAOSP/uwu-16/{device}/ota.json</string>
+    <string name="changelog_url" translatable="false">https://ota.neokoni.ink/device/{device}/uwuAOSP/uwu-16</string>
 </resources>
