@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nabu.mk
+    $(LOCAL_DIR)/custom_nabu.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_nabu-user \
-    lineage_nabu-userdebug \
-    lineage_nabu-eng
+    custom_nabu-user \
+    custom_nabu-userdebug \
+    custom_nabu-eng

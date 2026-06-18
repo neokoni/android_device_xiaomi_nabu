@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/custom/config/common_full_tablet_wifionly.mk)
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -21,22 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 DEVICE_CODENAME := nabu
 
-# Signing keys (Private).
-ifneq ("$(wildcard vendor/harshit/product.mk)", "")
-$(warning Dev keys were found and will be used.)
-$(call inherit-product, vendor/harshit/product.mk)
-endif
-
 # Inherit device configuration for nabu.
 $(call inherit-product, device/xiaomi/nabu/device.mk)
 
-# Inherit our own staff
-$(call inherit-product, device/xiaomi/nabu/avium.mk)
-
-# crDroid build flag
-# TARGET_ENABLE_BLUR := true
-
-PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
+PRODUCT_NAME := custom_$(DEVICE_CODENAME)
 PRODUCT_DEVICE := nabu
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi

@@ -16,14 +16,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-# Conditionally inherit GMS makefiles
-ifneq ("$(wildcard vendor/gapps/arm64/arm64-vendor.mk)", "")
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
-$(warning Gapps directory was found, They'll be bundled in.)
-WITHOUT_RESERVED_SIZE=true
-WITH_GMS=true
-endif
-
 # Conditionally inherit Viper4AndroidFX & disable audioFX.
 ifneq ("$(wildcard packages/apps/ViPER4AndroidFX/config.mk)", "")
 $(warning Enabling Viper4Android audio effect.)

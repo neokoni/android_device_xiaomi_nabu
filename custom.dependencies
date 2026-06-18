@@ -1,15 +1,9 @@
 [
   {
-    "repository": "neokoni/android_device_xiaomi_nabu",
-    "target_path": "device/xiaomi/nabu",
-    "remote": "github",
-    "branch": "avium-16.2"
-  },
-  {
     "repository": "neokoni/android_kernel_xiaomi_nabu",
     "target_path": "kernel/xiaomi/nabu",
     "remote": "github",
-    "branch": "avium-16.2"
+    "branch": "16.2"
   },
   {
     "repository": "android_hardware_xiaomi",
