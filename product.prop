@@ -25,3 +25,11 @@ ro.bpf.kver_override=5.10.239
 
 # FUSE
 persist.sys.fuse.passthrough.enable=true
+
+# Gboard
+ro.com.google.ime.height_ratio=0.94
+ro.com.google.ime.kb_pad_port_b=1
+ro.com.google.ime.kb_pad_land_b=1
+ro.com.google.ime.kbp_fport_b=1
+ro.com.google.ime.kbp_fland_b=1
+ro.com.google.ime.vibration=false
