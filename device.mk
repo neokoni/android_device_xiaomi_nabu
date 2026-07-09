@@ -420,6 +420,9 @@ PRODUCT_PACKAGES += \
     init.xiaomi.rc \
     ueventd.qcom.rc
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # IRQ Tuning
 PRODUCT_PACKAGES += \
     init.mi_perf.rc \
