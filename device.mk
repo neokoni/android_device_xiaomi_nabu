@@ -261,10 +261,6 @@ PRODUCT_PACKAGES += \
     libcrypto_shim \
     libcrypto_shim.vendor
 
-# fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # F2FS utilities
 PRODUCT_PACKAGES += \
     sg_write_buffer \
