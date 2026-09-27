@@ -391,6 +391,9 @@
         <!-- Bluetooth Audio HAL for Hearing aid -->
         <xi:include href="/vendor/etc/bluetooth_hearing_aid_audio_policy_configuration.xml"/>
 
+        <!-- Bluetooth Audio HAL for A2DP software encoding -->
+        <xi:include href="/vendor/etc/bluetooth_audio_policy_configuration.xml"/>
+
     </modules>
     <!-- End of Modules section -->
 
