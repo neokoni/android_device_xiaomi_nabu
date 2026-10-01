@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/custom/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/uwu/config/common.mk)
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -24,7 +24,12 @@ DEVICE_CODENAME := nabu
 # Inherit device configuration for nabu.
 $(call inherit-product, device/xiaomi/nabu/device.mk)
 
-PRODUCT_NAME := custom_$(DEVICE_CODENAME)
+# uwuAOSP
+UWU_DEVICE_TYPE := tablet
+UWU_SUPPORTS_TELEPHONY := false
+UWU_MAINTAINER := Neokoni
+
+PRODUCT_NAME := uwu_$(DEVICE_CODENAME)
 PRODUCT_DEVICE := nabu
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
