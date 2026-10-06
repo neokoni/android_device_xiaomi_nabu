@@ -11,6 +11,8 @@ on init
     chmod 0644 /sys/touchpanel/pen
     chown system system /sys/touchpanel/double_tap
     chmod 0644 /sys/touchpanel/double_tap
+    chown system system /sys/touchpanel/game_mode
+    chmod 0644 /sys/touchpanel/game_mode
 
 service vendor.hw-aidl-rs /system_ext/bin/custom.hardware.hwcontrol-service
     class hal
