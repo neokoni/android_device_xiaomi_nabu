@@ -12,7 +12,7 @@ on init
     chown system system /sys/touchpanel/double_tap
     chmod 0644 /sys/touchpanel/double_tap
 
-service vendor.hw-aidl-rs /system/bin/custom.hardware.hwcontrol-service
+service vendor.hw-aidl-rs /system_ext/bin/custom.hardware.hwcontrol-service
     class hal
     user system
     group system input uhid 

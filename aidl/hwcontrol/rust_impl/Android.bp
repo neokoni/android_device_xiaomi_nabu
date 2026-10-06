@@ -17,9 +17,11 @@ rust_binary {
         "liblogger",
         "custom.hardware.hwcontrol-V2-rust",
     ],
+    system_ext_specific: true,
 }
 
 vintf_fragment {
     name: "custom.hardware.hwcontrol.xml",
     src: "custom.hardware.hwcontrol.xml",
+    system_ext_specific: true,
 }
