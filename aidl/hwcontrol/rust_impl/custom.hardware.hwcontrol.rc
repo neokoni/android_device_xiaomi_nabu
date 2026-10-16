@@ -9,8 +9,6 @@ on init
     chmod 0664 /sys/devices/platform/soc/soc:xiaomi_keyboard/xiaomi_keyboard_conn_status
     chown system system /sys/touchpanel/pen
     chmod 0644 /sys/touchpanel/pen
-    chown system system /sys/touchpanel/double_tap
-    chmod 0644 /sys/touchpanel/double_tap
     chown system system /sys/touchpanel/game_mode
     chmod 0644 /sys/touchpanel/game_mode
 

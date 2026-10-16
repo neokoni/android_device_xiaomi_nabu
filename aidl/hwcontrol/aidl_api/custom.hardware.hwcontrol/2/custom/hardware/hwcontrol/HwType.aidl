@@ -26,7 +26,6 @@ package custom.hardware.hwcontrol;
 enum HwType {
   KEYBOARD,
   STYLUS,
-  TAP2WAKE,
   GAMEMODE,
 }
 

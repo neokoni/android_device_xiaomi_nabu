@@ -26,12 +26,6 @@
     <string name="keyboard_switch_title">启用键盘</string>
     <string name="keyboard_switch_summary">为小米键盘式双面保护壳启用键盘支持</string>
 
-    <!-- Double tap to wake -->
-    <string name="double_tap_2_wake_title">双击亮屏</string>
-    <string name="double_tap_2_wake_summary">双击屏幕唤醒设备</string>
-    <string name="double_tap_2_wake_switch_title">启用双击亮屏</string>
-    <string name="double_tap_2_wake_switch_summary">允许双击屏幕任意位置点亮屏幕</string>
-
     <!-- Pen Charging Notification -->
     <string name="pen_charging_channel_name">触控笔充电</string>
     <string name="pen_charging_channel_description">在触控笔充电时显示电量</string>

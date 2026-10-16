@@ -11,7 +11,7 @@ import android.util.Log
 import custom.hardware.hwcontrol.HwType
 
 /**
- * Utility class for managing peripheral devices (stylus, keyboard, tap2wake).
+ * Utility class for managing peripheral devices (stylus, keyboard).
  * Handles synchronization of hardware states on boot and preference changes.
  */
 object PeripheralUtils {
@@ -59,17 +59,6 @@ object PeripheralUtils {
     }
     
     /**
-     * Synchronize tap2wake hardware state with saved preferences
-     */
-    fun syncTap2Wake(context: Context) {
-        val enabled = PreferenceManager.getTap2WakeEnabled(context)
-        
-        Log.d(TAG, "Syncing tap2wake: enabled=$enabled")
-        
-        HwStateManager.setHwState(HwType.TAP2WAKE, enabled)
-    }
-    
-    /**
      * Synchronize game mode hardware state with saved preferences
      */
     fun syncGameMode(context: Context) {
@@ -86,7 +75,6 @@ object PeripheralUtils {
     private fun syncAll(context: Context) {
         syncStylus(context)
         syncKeyboard(context)
-        syncTap2Wake(context)
         syncGameMode(context)
     }
 }
